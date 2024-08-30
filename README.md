@@ -6,7 +6,7 @@ This project aims to calculate accurate 3D trajectories using data IMU sensors. 
 
 ### 1.1 Description of Task and Basic Technologies
 
-- **Overall Task**: The primary objective is to compute precise 3D trajectories IMU data. This involves filtering, processing, and visualizing sensor data and applying robust algorithms to achieve accurate motion tracking.
+- **Overall Task**: The primary objective is to compute precise 3D trajectories from IMU data. This involves filtering, processing, and visualizing sensor data and applying robust algorithms to achieve accurate motion tracking.
 
 - **Current Sensor Operation**:
   - **IMU Sensor**: Measures linear acceleration, angular velocity, and magnetic field in three dimensions.
@@ -14,7 +14,6 @@ This project aims to calculate accurate 3D trajectories using data IMU sensors. 
 - **Technologies to be Used**:
   - Programming Languages: Python (for data processing and algorithm implementation).
   - Libraries: NumPy, SciPy, Pandas (data handling and processing), Matplotlib, Plotly (data visualization).
-  - Tools: Jupyter Notebook (for prototyping and visualization), Git (version control).
 
 ## 2. IMU Data Handling
 
@@ -53,7 +52,6 @@ This project aims to calculate accurate 3D trajectories using data IMU sensors. 
 
 - Python 3.8 or higher
 - Libraries: NumPy, SciPy, Pandas, Matplotlib, Plotly, scikit-learn
-- Jupyter Notebook
 
 ### 4.2 Installation
 
@@ -63,31 +61,6 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/yourusername/3D-Trajectory-Calculation.git
 cd 3D-Trajectory-Calculation
 
-
-## 5. Directory Structure:
-
-- `docs/`: Additional documentation (e.g., sensor specifications, data sheets).
-- `src/`: 
-  - `gps_processing.py`: Scripts for GPS data handling.
-  - `imu_processing.py`: Scripts for IMU data handling.
-  - `trajectory_calculation.py`: Scripts for 3D trajectory calculations.
-- `data/`: Placeholder for raw and processed data samples.
-- `scripts/`: Utility scripts for preprocessing and visualization.
-
-### Setting Up the Repository
-
-1. **Initialize the Repository**:
-   - Create a new repository on GitHub with the name `3D-Trajectory-Calculation`.
-   - Clone the repository to your local machine.
-
-2. **Create the Directory Structure**:
-   - Organize the folders as outlined above.
-
-3. **Add the README.md File**:
-   - Copy and paste the above README content into a `README.md` file in the root directory.
-
-4. **Add Other Files**:
-   - Create placeholder files for scripts, data, and notebooks as needed.
 
 
 
