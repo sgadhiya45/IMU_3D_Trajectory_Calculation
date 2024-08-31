@@ -72,6 +72,6 @@ This project aims to calculate accurate 3D trajectories using data IMU sensors. 
 
 Clone the repository and install the required dependencies:
 
-```bash
-git clone https://github.com/yourusername/3D-Trajectory-Calculation.git
-cd 3D-Trajectory-Calculation
+git clone https://github.com/yourusername/IMU_3D_Trajectory_Calculation.git
+cd IMU_3D_Trajectory_Calculation
+
