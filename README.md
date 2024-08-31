@@ -46,21 +46,32 @@ This project aims to calculate accurate 3D trajectories using data IMU sensors. 
   - Complementary Filter: Efficient but less accurate over long periods.
   - Particle Filter: Highly accurate but requires high computational power.
 
-## 4. Getting Started
+## 4. Project Structure
 
-### 4.1 Prerequisites
+- **src/**: This directory contains essential scripts for processing IMU data and calculating accurate 3D trajectories. Each script is dedicated to a specific aspect of the data processing pipeline, from calibration to trajectory estimation.
+
+  - **Calibration.py**: A class-based script designed for calibrating IMU (Inertial Measurement Unit) data. It handles data loading, cleaning, and the application of advanced calibration techniques to ensure accurate sensor readings.
+
+  - **Orientation.py**: This script focuses on accurate orientation estimation from IMU data. It encompasses data loading, cleaning, and orientation calculation using custom algorithms to provide reliable orientation metrics.
+
+  - **Gravity.py**: A specialized script for compensating for gravity's effects during dynamic movement. It includes modules for data loading, cleaning, calibration, and precise orientation estimation, ensuring that the IMU data reflects true motion without gravitational interference.
+
+  - **DR.py**: This script implements the Dead Reckoning (DR) algorithm to estimate the 3D trajectory in space. It integrates IMU data to provide a continuous estimation of position, although it may accumulate errors over time.
+
+  - **EKF.py**: A sophisticated script that applies the Extended Kalman Filter (EKF) to estimate the true 3D trajectory from IMU data. It provides a more accurate trajectory estimation by optimally combining data and minimizing errors.
+
+
+## 5. Getting Started
+
+### 5.1 Prerequisites
 
 - Python 3.8 or higher
 - Libraries: NumPy, SciPy, Pandas, Matplotlib, Plotly, scikit-learn
 
-### 4.2 Installation
+### 5.2 Installation
 
 Clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/yourusername/3D-Trajectory-Calculation.git
 cd 3D-Trajectory-Calculation
-
-
-
-
